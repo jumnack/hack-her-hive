@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    
+</head>
+<body>
+    <h1>expense tracker</h1>
+    
+    <h1><center><u>EXPENSES</u></center></h1>
+    <center><table border="3" cellspacing="5px" cellpadding="20px">
+        
+            <tr>
+                <th> Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+            </tr>
+        
+        <tr>
+
+        </tr>
+    </table><br><br>
+    <p>Total Expenses:</p></center>
+
+    
+</body>
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyBpEGfe9LEeJlelJCv3DK6kkjT-ut8cdFw",
+      authDomain: "expence-tracker-cd999.firebaseapp.com",
+      projectId: "expence-tracker-cd999",
+      storageBucket: "expene-tracker-cd999.appspot.com",
+      messagingSenderId: "163585177678",
+      appId: "1:163585177678:web:5c4dc896ee73970aaeab1f",
+      measurementId: "G-433DK91PK3"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>
